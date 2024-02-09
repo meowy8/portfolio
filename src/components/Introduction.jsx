@@ -5,7 +5,7 @@ const Introduction = () => {
     <section id="introduction" className=" flex flex-col items-center p-10 mt-10">
         <div className="max-w-96 overflow-hidden mb-4">
           <img
-            src="public/Media/dazzle-line-man-programmer-writing-code-on-a-laptop-1.gif"
+            src="/Media/dazzle-line-man-programmer-writing-code-on-a-laptop-1.gif"
             alt=""
           />
         </div>

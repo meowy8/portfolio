@@ -14,7 +14,7 @@ input[type="textarea"] {
 
 @font-face {
   font-family: "Archiv Grotesk";
-  src: url("public/Font/ArchivGroteskTrial-RegularTrial.otf") format("opentype");
+  src: url("/Font/ArchivGroteskTrial-RegularTrial.otf") format("opentype");
 }
 @font-face {
   font-family: 'Noto Sans Regular';

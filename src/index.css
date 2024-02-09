@@ -4,11 +4,21 @@
 
 body {
   background-color: #f2e3bc;
+  font-family: 'Noto Sans Regular', sans-serif;
+}
+
+input[type="text"],
+input[type="textarea"] {
+  color: black;
 }
 
 @font-face {
   font-family: "Archiv Grotesk";
   src: url("public/Font/ArchivGroteskTrial-RegularTrial.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans Regular';
+  src: url('/Font/Noto_Sans/static/NotoSans-Regular.ttf') format('truetype')
 }
 
 .archivFont {

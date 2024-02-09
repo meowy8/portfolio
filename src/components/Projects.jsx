@@ -2,30 +2,39 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const millimetreIcons = [
-    {text: 'React', path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"},
-    {text: 'Javascript', path: "/Icons/icons8-javascript-96.png"},
-    {text: 'Tailwind', path: "/Icons/icons8-tailwind-css-96.png"},
-    {text: 'Firebase', path: "/Icons/icons8-firebase-96.png"}
-  ]
+    {
+      text: "React",
+      path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
+    },
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
+    { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
+  ];
 
   const pictiurlannIcons = [
-    {text: 'React', path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"},
-    {text: 'Javascript', path: "/Icons/icons8-javascript-96.png"},
-    {text: 'Tailwind', path: "/Icons/icons8-tailwind-css-96.png"}
-  ]
+    {
+      text: "React",
+      path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
+    },
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
+  ];
 
   const memoryGameIcons = [
-    {text: 'React', path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"},
-    {text: 'Javascript', path: "/Icons/icons8-javascript-96.png"},
-    {text: 'CSS', path: "/Icons/icons8-css-96.png"},
-    {text: 'HTML', path: "/Icons/icons8-html-96.png"}
-  ]
+    {
+      text: "React",
+      path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
+    },
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "CSS", path: "/Icons/icons8-css-96.png" },
+    { text: "HTML", path: "/Icons/icons8-html-96.png" },
+  ];
 
   const finesseIcons = [
-    {text: 'Javascript', path: "/Icons/icons8-javascript-96.png"},
-    {text: 'CSS', path: "/Icons/icons8-css-96.png"},
-    {text: 'HTML', path: "/Icons/icons8-html-96.png"}
-  ]
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "CSS", path: "/Icons/icons8-css-96.png" },
+    { text: "HTML", path: "/Icons/icons8-html-96.png" },
+  ];
 
   return (
     <section className="my-16">
@@ -38,6 +47,7 @@ const Projects = () => {
           urlPath={"https://millimetre.netlify.app/"}
           imgPath={"/Media/millimetre-screenshot.png"}
           icons={millimetreIcons}
+          githubPath={"https://github.com/meowy8/millimetre"}
         />
         <ProjectCard
           title={"Pictiurlann"}

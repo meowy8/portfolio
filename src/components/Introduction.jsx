@@ -1,4 +1,4 @@
-import ScrollToButton from "./ScrollToButton"
+import ScrollToButton from "./ScrollToSelectionButton"
 
 const Introduction = () => {
   return (

@@ -52,7 +52,7 @@ const Projects = () => {
         <ProjectCard
           title={"Pictiurlann"}
           urlPath={"https://pictiurlann.netlify.app/"}
-          imgPath={"public/Media/pictiurlann-screenshot.png"}
+          imgPath={"/Media/pictiurlann-screenshot.png"}
           icons={pictiurlannIcons}
         />
         <ProjectCard

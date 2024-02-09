@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f2e3bc;
+}
+
+@font-face {
+  font-family: "Archiv Grotesk";
+  src: url("public/Font/ArchivGroteskTrial-RegularTrial.otf") format("opentype");
+}
+
+.archivFont {
+  font-family: "Archiv Grotesk";
+}

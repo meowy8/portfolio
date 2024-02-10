@@ -3,14 +3,14 @@ import SkillIcon from "./SkillIcon";
 const ProjectCard = ({ title, urlPath, imgPath, icons, githubPath, text }) => {
   return (
     <div className="w-96 h-full p-2 bg-[#C19875] border-2 border-black rounded-md shadow-lg shadow-black transition-transform hover:scale-105 ">
-      <div className="rounded-sm overflow-hidden">
-        <img src={imgPath} alt="" />
+      <div className="rounded-sm overflow-hidden h-48">
+        <img src={imgPath} alt="" className=""/>
       </div>
       <div className="p-2">
         <a
           href={urlPath}
           target="_blank"
-          className="hover:underline underline-offset-4 decoration-red-700 hover:cursor-pointer text-2xl archivFont"
+          className="hover:underline underline-offset-4 decoration-[#592020] hover:cursor-pointer text-2xl archivFont"
         >
           {title}
         </a>

@@ -49,7 +49,7 @@ const Projects = () => {
           icons={millimetreIcons}
           githubPath={"https://github.com/meowy8/millimetre"}
           text={
-            "A film website where you can start your journey into experimental cinema. Allows for a profile creation to tick off the films in the catalogue and add your thoughts so others can see. Uses the TMDB API along with a custom database using Firebase."
+            "Start your journey into experimental cinema! Create a profile and add films to your watched list as you make your way through the catalogue. Add your thoughts in a note for each film so others can see. Uses the TMDB API along with a custom database using Firebase."
           }
         />
         <ProjectCard
@@ -58,27 +58,27 @@ const Projects = () => {
           imgPath={"/Media/pictiurlann-screenshot.png"}
           icons={pictiurlannIcons}
           text={
-            "A mock magazine website for film articles. Allows you to save articles to a list and view them once signed in. Uses Tailwind for styling, React Router for page routing and the Context API for sharing data across pages."
+            "A mock magazine website for film articles. Allows you to save articles to a list and view them once signed in. Uses Tailwind for styling, React Router for page routing and the Context API for sharing data across pages. The name comes from the Irish word for cinema!"
           }
         />
         <ProjectCard
-          title={"Memory Game"}
-          urlPath={"https://memorygameportfolio.netlify.app/"}
-          imgPath={"/Media/memory-game-screenshot.png"}
-          icons={memoryGameIcons}
-          text={
-            "A project completed from The Odin Project. A memory game where you have to select each number in the list without clicking the same one twice. Uses React state to handle the scoreboard and Javascript for game mechanics."
-          }
-        />
-        <ProjectCard
-          title={"Finesse"}
-          urlPath={"https://finesseshopping.netlify.app/"}
-          imgPath={"/Media/finesse-screenshot.png"}
+          title={"Weather App"}
+          urlPath={"https://weatheappportfolio.netlify.app/"}
+          imgPath={"/Media/weather-app-screenshot.png"}
           icons={finesseIcons}
           text={
-            "Ecommerce website using vanilla Javascript and CSS. View multiple pages for each type of item and add them to you shopping basket and favourites list."
+            "Weather app built using vanilla Javascript and CSS. Search for a location and view details about the weather with help from WeatherAPI. Also uses the Pexels API to find and display a random image related to that location."
           }
         />
+          <ProjectCard
+            title={"Memory Game"}
+            urlPath={"https://memorygameportfolio.netlify.app/"}
+            imgPath={"/Media/memory-game-screenshot.png"}
+            icons={memoryGameIcons}
+            text={
+              "A memory game where you have to select each number in the list without clicking the same one twice. Uses React state to handle the scoreboard and Javascript for game mechanics. A project completed as part of The Odin Project course. "
+            }
+          />
       </div>
     </section>
   );

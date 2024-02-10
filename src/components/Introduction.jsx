@@ -22,8 +22,8 @@ const Introduction = () => {
             <span className="transition-color duration-[550ms]">
               Front-End Developer
             </span>{" "}
-            looking to share my skills with a great team of people and build
-            some great websites.
+            born in Northern Ireland looking to share my skills with a great team of people and build
+            some innovative websites.
           </p>
         </div>
       </div>

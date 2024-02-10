@@ -19,7 +19,7 @@ const Introduction = () => {
           </h1>
           <p className="text-xl">
             I am a{" "}
-            <span className="transition-color duration-500">
+            <span className="transition-color duration-[550ms]">
               Front-End Developer
             </span>{" "}
             looking to share my skills with a great team of people and build

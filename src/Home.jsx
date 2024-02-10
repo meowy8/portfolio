@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 
 const Home = () => {
   return (
-    <div className="m-1 flex flex-col">
+    <div className="m-1 flex flex-col items-center">
       <Introduction />
       <Skills />
       <Projects />

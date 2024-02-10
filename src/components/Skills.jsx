@@ -16,11 +16,11 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="bg-[#618985] rounded-lg mt-64 p-4">
-      <div>
+    <section id="skills" className="bg-[#618985] rounded-lg mt-64 p-4 w-full lg:w-4/5">
+      <div className="">
         <h1 className="flex justify-center text-xl archivFont mb-2">Skills</h1>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4 gap-y-8">
         {icons.map((icon, index) => {
           return (
             <SkillIcon key={index} text={icon.text} iconPath={icon.path} />

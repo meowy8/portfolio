@@ -3,7 +3,7 @@ import SkillIcon from "./SkillIcon";
 const ProjectCard = ({ title, urlPath, imgPath, icons, githubPath }) => {
 
   return (
-    <div className="w-96 p-2 bg-[#C19875] border-2 border-black rounded-md shadow-lg shadow-black transition-transform hover:scale-105">
+    <div className="w-96 h-full p-2 bg-[#C19875] border-2 border-black rounded-md shadow-lg shadow-black transition-transform hover:scale-105 ">
       <div className="rounded-sm overflow-hidden">
         <img src={imgPath} alt="" />
       </div>

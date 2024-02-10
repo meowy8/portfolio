@@ -2,7 +2,7 @@ import Contact from "./Contact"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#618985] p-10 text-white">
+    <footer className="bg-[#618985] p-10 text-white w-full">
       <Contact />
       <div className="mt-10">
         <span>Illustration by Elisabet Guba from Ouch!</span>

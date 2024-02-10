@@ -37,11 +37,11 @@ const Projects = () => {
   ];
 
   return (
-    <section className="my-16">
-      <div className="flex justify-center p-4">
+    <section className="my-16 ">
+      <div className="flex justify-center p-4 ">
         <h1 className="text-2xl archivFont mb-10">Check out my projects!</h1>
       </div>
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-8 lg:grid grid-cols-2 ">
         <ProjectCard
           title={"Millimetre"}
           urlPath={"https://millimetre.netlify.app/"}

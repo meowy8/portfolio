@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 body {
+  display: flex;
+  justify-content: center;
   background-color: #f2e3bc;
-  font-family: 'Noto Sans Regular', sans-serif;
+  font-family: "Noto Sans Regular", sans-serif;
 }
 
-input[type="text"],
-input[type="textarea"] {
+input[type="text"] {
+  color: black;
+}
+
+textarea {
   color: black;
 }
 
@@ -17,10 +22,31 @@ input[type="textarea"] {
   src: url("/Font/ArchivGroteskTrial-RegularTrial.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Noto Sans Regular';
-  src: url('/Font/Noto_Sans/static/NotoSans-Regular.ttf') format('truetype')
+  font-family: "Noto Sans Regular";
+  src: url("/Font/Noto_Sans/static/NotoSans-Regular.ttf") format("truetype");
 }
 
 .archivFont {
   font-family: "Archiv Grotesk";
+}
+
+.backgroundShape {
+  background-image: url("/Media/graph.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.bounce {
+  animation: bounce 1s infinite;
 }

@@ -2,7 +2,7 @@ import Contact from "./Contact";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-between items-center bg-[#618985] p-10 text-white w-full rounded-md lg:grid grid-cols-2 place-items-center">
+    <footer className="flex flex-col justify-between items-center bg-[#618985] p-10 text-white w-full lg:grid grid-cols-2 place-items-center">
       <div className="flex flex-col justify-between">
         <p className="text-xl">
           Thank you for taking a look at my portfolio!

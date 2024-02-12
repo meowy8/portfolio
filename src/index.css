@@ -45,6 +45,10 @@ textarea {
   font-family: "Roboto";
 }
 
+.lora {
+  font-family: 'Lora Regular';
+}
+
 .backgroundShape {
   background-image: url("/Media/graph.png");
   background-size: cover;

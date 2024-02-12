@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Footer from "./components/Footer";
 import Introduction from "./components/Introduction";
 import Projects from "./components/Projects";
@@ -9,6 +10,7 @@ const Home = () => {
       <Introduction />
       <Skills />
       <Projects />
+      <About />
       <Footer />
     </div>
   );

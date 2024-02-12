@@ -23,7 +23,7 @@ const Introduction = () => {
         <div className="flex flex-col items-center md:flex-row lg:w-4/5">
           <div
             id="animation-container"
-            className="w-3/6 overflow-hidden mb-4"
+            className="w-4/6 md:w-3/6 overflow-hidden mb-4"
           ></div>
           <div className="md:w-3/5 ">
             <h1 className="text-2xl md:text-3xl">
@@ -36,7 +36,7 @@ const Introduction = () => {
                 Front-End Developer
               </span>{" "}
               born in Northern Ireland looking to share my skills with a great
-              team of people and build some innovative websites.
+              team of people and build some innovative websites. 
             </p>
           </div>
         </div>

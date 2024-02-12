@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ScrollToSelectionButton from "./ScrollToSelectionButton";
 
 const NavBar = () => {
@@ -9,7 +8,7 @@ const NavBar = () => {
           Micheal Hoey
         </span>
       </div>
-      <div id="pages" className="flex justify-between w-44 mx-4 ">
+      <div id="pages" className="flex justify-between w-52 mx-4 ">
         <ScrollToSelectionButton location={"introduction"}>
           Home
         </ScrollToSelectionButton>
@@ -18,6 +17,9 @@ const NavBar = () => {
         </ScrollToSelectionButton>
         <ScrollToSelectionButton location={"projects"}>
           Projects
+        </ScrollToSelectionButton>
+        <ScrollToSelectionButton location={'about'}>
+          About
         </ScrollToSelectionButton>
       </div>
     </nav>

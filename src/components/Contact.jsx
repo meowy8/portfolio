@@ -33,6 +33,7 @@ const Contact = () => {
               type="text"
               id="name"
               className="w-3/5"
+              value={nameInput}
               onChange={(e) => setNameInput(e.target.value)}
             />
           </label>
@@ -42,6 +43,7 @@ const Contact = () => {
               type="text"
               id="email"
               className="w-3/5"
+              value={emailInput}
               onChange={(e) => setEmailInput(e.target.value)}
             />
           </label>
@@ -51,6 +53,7 @@ const Contact = () => {
               type="text"
               id="message"
               className="w-3/5"
+              value={messageInput}
               onChange={(e) => setMessageInput(e.target.value)}
             />
           </label>

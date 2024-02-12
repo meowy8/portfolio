@@ -18,24 +18,25 @@ const Contact = () => {
     <form
       name="contact"
       method="post"
-      onSubmit={(e) => handleSubmit(e)}
       data-netlify={true}
       className="flex flex-col gap-4 p-4 w-full md:w-2/5 lg:w-4/5 max-w-[500px] roboto"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <h1 className="text-2xl archivFont">Contact</h1>
       {messageSent ? (
         <p className="flex justify-center">Thanks for your message!</p>
       ) : (
         <>
-          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className="flex justify-between  ">
             Name:
             <input
               type="text"
               id="name"
+              name="name"
               className="w-3/5"
               value={nameInput}
               onChange={(e) => setNameInput(e.target.value)}
+              required
             />
           </label>
           <label htmlFor="email" className="flex justify-between ">
@@ -43,9 +44,11 @@ const Contact = () => {
             <input
               type="text"
               id="email"
+              name="email"
               className="w-3/5"
               value={emailInput}
               onChange={(e) => setEmailInput(e.target.value)}
+              required
             />
           </label>
           <label htmlFor="message" className="flex justify-between ">
@@ -53,9 +56,11 @@ const Contact = () => {
             <textarea
               type="text"
               id="message"
+              name="message"
               className="w-3/5"
               value={messageInput}
               onChange={(e) => setMessageInput(e.target.value)}
+              required
             />
           </label>
           <div className="flex justify-center">

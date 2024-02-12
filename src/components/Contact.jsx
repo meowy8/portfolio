@@ -19,7 +19,6 @@ const Contact = () => {
       name="contact"
       method="post"
       data-netlify={true}
-      onSubmit={e => handleSubmit(e)}
       className="flex flex-col gap-4 p-4 w-full md:w-2/5 lg:w-4/5 max-w-[500px] roboto"
     >
       <input type="hidden" name="form-name" value="contact" />

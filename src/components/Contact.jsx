@@ -18,13 +18,12 @@ const Contact = () => {
     <form
       name="contact"
       onSubmit={e =>handleSubmit(e)}
-      action="submit"
-      netlify
+      data-netlify={true}
       className="flex flex-col gap-4 p-4 w-full md:w-2/5 lg:w-4/5 max-w-[500px] roboto"
     >
       <h1 className="text-2xl archivFont">Contact</h1>
       {messageSent ? (
-        <p>Thanks for your message!</p>
+        <p className="flex justify-center">Thanks for your message!</p>
       ) : (
         <>
           <label htmlFor="name" className="flex justify-between  ">

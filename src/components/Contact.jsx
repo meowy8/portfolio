@@ -7,7 +7,7 @@ const Contact = () => {
   const [messageSent, setMessageSent] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     setNameInput("");
     setEmailInput("");
     setMessageInput("");
@@ -17,7 +17,8 @@ const Contact = () => {
   return (
     <form
       name="contact"
-      onSubmit={e =>handleSubmit(e)}
+      method="post"
+      onSubmit={(e) => handleSubmit(e)}
       data-netlify={true}
       className="flex flex-col gap-4 p-4 w-full md:w-2/5 lg:w-4/5 max-w-[500px] roboto"
     >
@@ -26,6 +27,7 @@ const Contact = () => {
         <p className="flex justify-center">Thanks for your message!</p>
       ) : (
         <>
+          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className="flex justify-between  ">
             Name:
             <input
@@ -57,7 +59,10 @@ const Contact = () => {
             />
           </label>
           <div className="flex justify-center">
-            <button type="submit" className="border rounded-sm m-2 p-2 w-56 hover:bg-white hover:text-[#618985]">
+            <button
+              type="submit"
+              className="border rounded-sm m-2 p-2 w-56 hover:bg-white hover:text-[#618985]"
+            >
               Send Message
             </button>
           </div>

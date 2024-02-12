@@ -16,11 +16,17 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="bg-[#618985] rounded-lg mt-64 p-4 w-full lg:w-4/5">
+    <section
+      id="skills"
+      className="flex flex-col bg-[#618985] rounded-lg mt-64 p-4 w-full lg:w-4/5 roboto"
+    >
       <div className="">
-        <h1 className="flex justify-center text-2xl archivFont text-white">Skills</h1>
+        <h1 className="flex justify-center text-2xl archivFont text-white">
+          Skills
+        </h1>
       </div>
-      <div className="grid grid-cols-4 gap-y-8 p-4">
+
+      <div className="grid grid-cols-4 gap-y-8 p-4 place-items-center">
         {icons.map((icon, index) => {
           return (
             <SkillIcon key={index} text={icon.text} iconPath={icon.path} />

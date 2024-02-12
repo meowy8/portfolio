@@ -32,8 +32,17 @@ textarea {
   src: url("/Font/Lora/static/Lora-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("/Font/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
 .archivFont {
   font-family: "Archiv Grotesk";
+}
+
+.roboto {
+  font-family: "Roboto";
 }
 
 .backgroundShape {

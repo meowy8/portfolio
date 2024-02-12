@@ -8,7 +8,7 @@ const NavBar = () => {
           Micheal Hoey
         </span>
       </div>
-      <div id="pages" className="flex justify-between w-52 mx-4 ">
+      <div id="pages" className="flex justify-between w-56 mx-4 ">
         <ScrollToSelectionButton location={"introduction"}>
           Home
         </ScrollToSelectionButton>

@@ -31,12 +31,12 @@ const Introduction = () => {
               !
             </h1>
             <p className="text-xl">
-              I am a{" "}
+              I&apos;m a{" "}
               <span className="transition-color duration-[550ms] group-hover:text-[#d66969]">
                 Front-End Developer
               </span>{" "}
               born in Northern Ireland looking to share my skills with a great
-              team of people and build some innovative websites. 
+              team of people and build innovative websites. 
             </p>
           </div>
         </div>

@@ -36,8 +36,22 @@ const Introduction = () => {
                 Front-End Developer
               </span>{" "}
               born in Northern Ireland looking to share my skills with a great
-              team of people and build innovative websites. 
+              team of people and build innovative websites.
             </p>
+            <div className="flex justify-center w-full mt-10 roboto">
+              <div className="flex justify-center border border-black group-hover:border rounded-md m-2 p-2 hover:bg-[#AFCBFF] hover:text-[#d66969] w-32">
+                <ScrollToButton location={"footer"}>Contact Me</ScrollToButton>
+              </div>
+              <a
+                target="_blank"
+                href="https://www.dropbox.com/scl/fi/b5e7t7rciavt7g82ealcu/UPDATED-RESUME-2024.pdf?rlkey=e9ojfbxgfvqgg5k87qm5yzobr&dl=0"
+                className=""
+              >
+                <button className="border border-black group-hover:border rounded-md m-2 p-2 hover:bg-[#AFCBFF] hover:text-[#d66969] w-32">
+                  CV
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex w-full justify-center mt-10">

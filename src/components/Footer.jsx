@@ -30,9 +30,6 @@ const Footer = () => {
       <Contact />
       <div className="mt-8 flex flex-col text-xs roboto">
         <span>Illustration by Elisabet Guba from Ouch!</span>
-        <a href="https://www.flaticon.com/free-icons/clean" title="clean icons">
-          Clean icons created by Tanah Basah - Flaticon
-        </a>
       </div>
     </footer>
   );

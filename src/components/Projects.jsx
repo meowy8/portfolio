@@ -11,13 +11,14 @@ const Projects = () => {
     { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
   ];
 
-  const pictiurlannIcons = [
+  const photographyPortfolioIcons = [
     {
       text: "React",
       path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
     },
     { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
     { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
+    { text: "NextJS", path: "/Icons/next-js.256x256.png" },
   ];
 
   const memoryGameIcons = [
@@ -54,13 +55,13 @@ const Projects = () => {
           demoVersion={'Demo Site'}
         />
         <ProjectCard
-          title={"Pictiurlann"}
-          urlPath={"https://pictiurlann.netlify.app/"}
-          imgPath={"/Media/pictiurlann-screenshot.png"}
-          icons={pictiurlannIcons}
-          githubPath={"https://github.com/meowy8/pictiurlann"}
+          title={"Photography Portfolio"}
+          urlPath={"https://micheal-photography-portfolio.netlify.app"}
+          imgPath={"/Media/photography-portfolio-screenshot.png"}
+          icons={photographyPortfolioIcons}
+          githubPath={"https://github.com/meowy8/photography-portfolio"}
           text={
-            "A mock magazine website for film articles. Allows you to save articles to a list and view them once signed in. Uses Tailwind for styling, React Router for page routing and the Context API for sharing data across pages. The name comes from the Irish word for cinema!"
+            "A simple portfolio website to host some of my own photography. Created using React and Next.js."
           }
         />
         <ProjectCard

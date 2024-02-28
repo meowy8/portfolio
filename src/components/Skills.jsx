@@ -12,7 +12,7 @@ const Skills = () => {
     { text: "HTML", path: "/Icons/icons8-html-96.png" },
     { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
     { text: "Git", path: "/Icons/icons8-git-96.png" },
-    { text: "GitHub", path: "/Icons/icons8-github-96.png" },
+    { text: "NextJS", path: "/Icons/next-js.256x256.png" },
   ];
 
   return (

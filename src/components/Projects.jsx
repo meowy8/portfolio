@@ -21,20 +21,15 @@ const Projects = () => {
     { text: "NextJS", path: "/Icons/next-js.256x256.png" },
   ];
 
-  const memoryGameIcons = [
+  const setantaIcons = [
     {
       text: "React",
       path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
     },
-    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
-    { text: "CSS", path: "/Icons/icons8-css-96.png" },
-    { text: "HTML", path: "/Icons/icons8-html-96.png" },
-  ];
-
-  const finesseIcons = [
-    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
-    { text: "CSS", path: "/Icons/icons8-css-96.png" },
-    { text: "HTML", path: "/Icons/icons8-html-96.png" },
+    { text: "Typescript", path: "/Icons/icons8-typescript-96.png" },
+    { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
+    { text: "NextJS", path: "/Icons/next-js.256x256.png" },
+    { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
   ];
 
   return (
@@ -52,7 +47,17 @@ const Projects = () => {
           text={
             "Start your journey into experimental cinema! Create a profile and add films to your watched list as you make your way through the catalogue. Add your thoughts in a note for each film so others can see. Uses the TMDB API along with a custom database using Firebase."
           }
-          demoVersion={'Demo Site'}
+          demoVersion={"Demo Site"}
+        />
+        <ProjectCard
+          title={"Setanta"}
+          urlPath={"https://setanta.netlify.app/"}
+          imgPath={"/Media/setanta-screenshot.png"}
+          icons={setantaIcons}
+          githubPath={"https://github.com/meowy8/setanta"}
+          text={
+            "Setanta is a modern clothing e-commerce platform built with React and TypeScript. Offering a responsive shopping experience, Setanta showcases a curated collection of stylish apparel for fashion enthusiasts. With intuitive navigation and sleek design, users can effortlessly browse through a wide range of trendy outfits."
+          }
         />
         <ProjectCard
           title={"Photography Portfolio"}
@@ -62,26 +67,6 @@ const Projects = () => {
           githubPath={"https://github.com/meowy8/photography-portfolio"}
           text={
             "A simple portfolio website to host some of my own photography. Created using React and Next.js."
-          }
-        />
-        <ProjectCard
-          title={"Weather App"}
-          urlPath={"https://weatheappportfolio.netlify.app/"}
-          imgPath={"/Media/weather-app-screenshot.png"}
-          icons={finesseIcons}
-          githubPath={"https://github.com/meowy8/WeatherAppProject"}
-          text={
-            "Weather app built using vanilla Javascript and CSS. Search for a location and view details about the weather with help from WeatherAPI. Also uses the Pexels API to find and display a random image related to that location."
-          }
-        />
-        <ProjectCard
-          title={"Memory Game"}
-          urlPath={"https://memorygameportfolio.netlify.app/"}
-          imgPath={"/Media/memory-game-screenshot.png"}
-          icons={memoryGameIcons}
-          githubPath={"https://github.com/meowy8/odin-memory-game-project-repo"}
-          text={
-            "A memory game where you have to select each number in the list without clicking the same one twice. A project completed as part of The Odin Project course. "
           }
         />
       </div>

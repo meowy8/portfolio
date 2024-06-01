@@ -6,6 +6,7 @@ const Skills = () => {
       text: "React",
       path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
     },
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
     { text: "TypeScript", path: "/Icons/icons8-typescript-96.png" },
     { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
     { text: "CSS", path: "/Icons/icons8-css-96.png" },
@@ -13,6 +14,9 @@ const Skills = () => {
     { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
     { text: "Git", path: "/Icons/icons8-git-96.png" },
     { text: "NextJS", path: "/Icons/next-js.256x256.png" },
+    { text: "MongoDB", path: "/Icons/icons8-mongodb-96.png" },
+    { text: "NodeJS", path: "/Icons/icons8-nodejs-96.png" },
+    { text: "Figma", path: "/Icons/icons8-figma-96.png" },
   ];
 
   return (

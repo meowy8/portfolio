@@ -41,7 +41,7 @@ const ProjectCard = ({
             Code
           </a>
         </div>
-        <div className="flex items-center justify-center p-6 bg-[#618985] rounded-sm w-full h-32">
+        <div className="grid grid-cols-4  items-end p-6 bg-[#618985] rounded-sm w-full  gap-2">
           {icons.map((icon, index) => {
             return (
               <SkillIcon key={index} text={icon.text} iconPath={icon.path} />

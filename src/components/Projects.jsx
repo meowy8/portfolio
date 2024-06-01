@@ -32,6 +32,19 @@ const Projects = () => {
     { text: "Firebase", path: "/Icons/icons8-firebase-96.png" },
   ];
 
+  const newMillimetreIcons = [
+    {
+      text: "React",
+      path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
+    },
+    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
+    { text: "MongoDB", path: "/Icons/icons8-mongodb-96.png" },
+    { text: "NextJS", path: "/Icons/next-js.256x256.png" },
+    { text: "Figma", path: "/Icons/icons8-figma-96.png" },
+    { text: "TypeScript", path: "/Icons/icons8-typescript-96.png" },
+  ];
+
   return (
     <section id="projects" className="my-16 ">
       <div className="flex justify-center p-4 ">
@@ -40,6 +53,16 @@ const Projects = () => {
       <div className="flex flex-col items-center gap-8 lg:grid grid-cols-2 ">
         <ProjectCard
           title={"Millimetre"}
+          urlPath={"https://mmillimetre.com"}
+          imgPath={"/Media/new-millimetre-screenshot.png"}
+          icons={newMillimetreIcons}
+          githubPath={"#"}
+          text={
+            "Discover new and lesser seen films with Millimetre! Sign up and find your new favourite film, record your thoughts in notes and add films to your watchlist. A fullstack application using the power of NextJS, React and MongoDB to build a new, exciting website for film enthusiasts. This is a project I plan to continue to work on in the future..."
+          }
+        />
+        <ProjectCard
+          title={"Millimetre (Old)"}
           urlPath={"https://millimetredemo.netlify.app/"}
           imgPath={"/Media/millimetre-screenshot.png"}
           icons={millimetreIcons}

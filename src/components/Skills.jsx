@@ -6,7 +6,7 @@ const Skills = () => {
       text: "React",
       path: "/Icons/icons8-react-a-javascript-library-for-building-user-interfaces-96.png",
     },
-    { text: "Javascript", path: "/Icons/icons8-javascript-96.png" },
+    { text: "TypeScript", path: "/Icons/icons8-typescript-96.png" },
     { text: "Tailwind", path: "/Icons/icons8-tailwind-css-96.png" },
     { text: "CSS", path: "/Icons/icons8-css-96.png" },
     { text: "HTML", path: "/Icons/icons8-html-96.png" },

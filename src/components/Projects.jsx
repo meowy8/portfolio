@@ -56,7 +56,7 @@ const Projects = () => {
           urlPath={"https://mmillimetre.com"}
           imgPath={"/Media/new-millimetre-screenshot.png"}
           icons={newMillimetreIcons}
-          githubPath={"#"}
+          githubPath={null}
           text={
             "Discover new and lesser seen films with Millimetre! Sign up and find your new favourite film, record your thoughts in notes and add films to your watchlist. A fullstack application using the power of NextJS, React and MongoDB to build a new, exciting website for film enthusiasts. This is a project I plan to continue to work on in the future..."
           }

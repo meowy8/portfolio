@@ -33,13 +33,15 @@ const ProjectCard = ({
           >
             {demoVersion ? demoVersion : "Live Site"}
           </a>
-          <a
-            href={githubPath}
-            target="_blank"
-            className="p-2 bg-[#618985] rounded-md border border-black hover:border-white hover:bg-white hover:text-[#618985] hover:cursor-pointer"
-          >
-            Code
-          </a>
+          {githubPath && (
+            <a
+              href={githubPath}
+              target="_blank"
+              className="p-2 bg-[#618985] rounded-md border border-black hover:border-white hover:bg-white hover:text-[#618985] hover:cursor-pointer"
+            >
+              Code
+            </a>
+          )}
         </div>
         <div className="grid grid-cols-4  items-end p-6 bg-[#618985] rounded-sm w-full  gap-2">
           {icons.map((icon, index) => {

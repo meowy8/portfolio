@@ -44,7 +44,7 @@ const Introduction = () => {
               </div>
               <a
                 target="_blank"
-                href="https://www.dropbox.com/scl/fi/b5e7t7rciavt7g82ealcu/UPDATED-RESUME-2024.pdf?rlkey=e9ojfbxgfvqgg5k87qm5yzobr&dl=0"
+                href="https://www.dropbox.com/scl/fi/urvqfgjyfmieuphh5r3q8/Web-Developer.pdf?rlkey=s2uo20acjvow030s9rhkqh9m6&st=iir66gnl&dl=0"
                 className=""
               >
                 <button className="border border-black group-hover:border rounded-md m-2 p-2 hover:bg-[#AFCBFF] hover:text-[#d66969] w-32">
